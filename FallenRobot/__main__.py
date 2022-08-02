@@ -754,7 +754,7 @@ def main():
             dispatcher.bot.send_photo(
                 f"@{SUPPORT_CHAT}",
                 "https://telegra.ph/file/29dfe5718ac9653c14efd.mp4",
-                caption=f" ɢʀᴏᴜᴘ ᴍᴀɴɢᴇᴍᴇɴᴛ ʙᴏᴛ ɪs ᴀʟɪᴠᴇ !\n\nᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ *[sɪᴠᴀᴛʜᴇᴋɪɴɢ](t.me/Sivatheking_1)*",
+                caption=f" ɢʀᴏᴜᴘ ᴍᴀɴɢᴇᴍᴇɴᴛ ʙᴏᴛ ɪs ᴀʟɪᴠᴇ !\n\nᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ Sivatheking",
                 reply_markup=InlineKeyboardMarkup(SC)
             )
         except Unauthorized:
