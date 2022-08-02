@@ -75,6 +75,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
+SC = [[
+  InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/lovely420_bot?startgroup=true")
+]]
+
 
 PM_START_TEXT = """
 ʜᴇʏ[,](https://telegra.ph/file/29dfe5718ac9653c14efd.mp4)
@@ -748,7 +752,8 @@ def main():
             dispatcher.bot.send_photo(
                 f"@{SUPPORT_CHAT}",
                 "https://telegra.ph/file/29dfe5718ac9653c14efd.mp4",
-                caption="zᴇɴ ✘ ʀᴏʙᴏᴛ ɪs ᴀʟɪᴠᴇ !\n\nᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ Aᴅɪᴛʏᴀ",
+                caption=" ɢʀᴏᴜᴘ ᴍᴀɴɢᴇᴍᴇɴᴛ ʙᴏᴛ ɪs ᴀʟɪᴠᴇ !\n\nᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ [sɪᴠᴀᴛʜᴇᴋɪɴɢ](https://t.me/Sivatheking_1)",
+                reply_markup=InlineKeyboardMarkup(SC)
             )
         except Unauthorized:
             LOGGER.warning(
