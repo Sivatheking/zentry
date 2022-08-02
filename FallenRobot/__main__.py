@@ -77,6 +77,8 @@ def get_readable_time(seconds: int) -> str:
 
 SC = [[
   InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/lovely420_bot?startgroup=true")
+],[
+ InlineKeyboardButton("📜 𝙹𝚘𝚒𝚗 𝚖𝚢 𝚕𝚘𝚐𝚜", url="t.me/lovelybot_logs")
 ]]
 
 
